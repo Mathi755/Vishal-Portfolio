@@ -121,14 +121,14 @@ function mailsender(){
   let transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-          user: 'gn1189@srmist.edu.in',
-          pass: 'python@Khdmdcm34k.'
+          user: 'vishalpillai375@gmail.com',
+          pass: 'vishal2020@'
       }
   });
   
   // Define email content
   let mailOptions = {
-      from: 'gn1189@srmist.edu.in',
+      from: 'vishalpillai375@gmail.com',
       to: 'pythonwithmathi@gmail.com',
       subject: 'Test Email',
       text: 'This is a test email from Node.js'
